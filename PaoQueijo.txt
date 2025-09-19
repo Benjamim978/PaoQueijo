@@ -1,0 +1,30 @@
+Pão de Queijo
+
+Conceito do Jogo
+Pão de Queijo: O Ciclo Infinito é um jogo multiplayer para 4 a 8 jogadores. Um deles é o Pão de Queijo, o único com poderes. A cada 10 rodadas, um novo jogador é escolhido para ser o Pão de Queijo Mestre. O jogo continua indefinidamente, e os jogadores precisam trabalhar juntos para se manterem vivos. O layout 2D, no estilo Gartic, é o palco para todas as ações.
+
+O Ciclo da Sobrevivência
+O jogo se desenrola em ciclos de 10 rodadas. Em cada ciclo, um jogador é secretamente escolhido para ser o Pão de Queijo. Ele pode usar suas habilidades a qualquer momento.
+
+O Pão de Queijo Mestre
+Ele pode usar suas habilidades para:
+
+Matar: O Pão de Queijo Mestre escolhe um jogador para morrer. A morte é instantânea e o jogador eliminado não pode mais participar da rodada.
+
+Curar: O Pão de Queijo Mestre escolhe um jogador para curar, protegendo-o de ser morto. A cura é invisível, então ninguém sabe quem foi salvo.
+
+Dar: Ele pode dar um Pão de Queijo de Poder a um jogador, permitindo que ele faça algo especial, como roubar a cura de outro jogador.
+
+Privilegiar: O Pão de Queijo Mestre pode privilegiar um jogador, dando a ele a habilidade de ver quem foi curado ou morto em uma rodada.
+
+Votação: Fazer votação pra ele ver as respostas de acordo com ela escolher jogadores pra ele reagir, ou ignorar a votação se ele não quiser
+
+Conversa e Votação
+A conversa em jogo é a única forma de interagir. O Pão de Queijo Mestre pode ou não iniciar um debate com uma pergunta no chat. Se ele fizer, os jogadores precisam discutir e defender uns aos outros.
+
+O Ciclo Se Reinicia
+O jogo só acaba quando todos os jogadores, exceto o Pão de Queijo, morrem ou acaba as 10 rodadas concluindo uma partida. No entanto, a meta não é vencer, mas sim durar o máximo de tempo possível.
+
+Adicionais de descrição
+
+Pão de queijo: Ele pode usar no max 2 habilidades, ou 3 se uma delas for a votação podendo fazer a votação e mais 2 habilidades

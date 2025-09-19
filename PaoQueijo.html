@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pão de Queijo</title>
+  <link rel="stylesheet" href="PaoQueijo.css">
+</head>
+<body>
+  <h1>🥐 Pão de Queijo</h1>
+
+  <div id="entrada">
+    <label for="nick">Seu nick:</label>
+    <input type="text" id="nick" placeholder="Digite seu nome">
+    <label for="sala">Nome do servidor:</label>
+    <input type="text" id="sala" placeholder="Ex: Sala1">
+    <button onclick="criarSala()">Criar servidor</button>
+    <button onclick="entrarSala()">Entrar em servidor</button>
+    <h3>Servidores disponíveis:</h3>
+    <ul id="listaSalas"></ul>
+  </div>
+
+  <div id="jogo" style="display:none;">
+    <p><strong>Jogador:</strong> <span id="nomeJogador"></span></p>
+    <p><strong>Sala:</strong> <span id="nomeSala"></span></p>
+
+    <div id="acoes">
+      <h3>Ações:</h3>
+      <button onclick="enviarAcao('curar')">Curar</button>
+      <button onclick="enviarAcao('matar')">Matar</button>
+      <button onclick="enviarAcao('dar')">Dar Pão de Queijo de Poder</button>
+    </div>
+
+    <div id="painel">
+      <div class="log" id="log"></div>
+      <div class="chat">
+        <h3>Chat</h3>
+        <div id="chatMensagens"></div>
+        <input type="text" id="chatInput" placeholder="Digite sua mensagem">
+        <button onclick="enviarMensagem()">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="PaoQueijo.js"></script>
+</body>
+</html>
